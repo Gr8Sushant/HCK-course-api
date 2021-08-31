@@ -23,12 +23,12 @@ const courses = [
     {id: 13, name: 'Introductory Programming and Problem Solving', code: '4CS001', level: '4' },
     {id: 14, name: 'Fundamentals of Computing', code: '4CS015', level: '4' },
     {id: 15, name: 'Embedded System Programming', code: '4CS014', level: '4' },
-    {id: 14, name: 'Internet Software Architecture', code: '4CS017', level: '4' },
-    {id: 15, name: 'Computational Mathematics', code: '4MM013', level: '4' }
+    {id: 16, name: 'Internet Software Architecture', code: '4CS017', level: '4' },
+    {id: 17, name: 'Computational Mathematics', code: '4MM013', level: '4' }
 ]
 
 app.get('/', (req, res) => {
-    res.send('Hello World');
+    res.send('HCK Course API');
 });
 
 app.get('/api/courses', (req, res) => {
