@@ -1,10 +1,11 @@
 ## Rest API with Node and Express
-- data validation (joi)
 
 ### Operations
 > CRUD
 
 
-### Snapshot
+### Snapshots
 
-![ss](./snapshot/sample.png)
+![ss](./snapshot/1.png)
+
+![ss](./snapshot/2.png)
